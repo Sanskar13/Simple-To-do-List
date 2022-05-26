@@ -10,6 +10,6 @@ function display()
       var li = document.createElement('li')
       li.textContent = input.value
       list.appendChild(li,list)
-      input.innerHTML = "";
+      input.value = "";
     }
   }
